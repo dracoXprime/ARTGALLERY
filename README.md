@@ -1,0 +1,261 @@
+# ARTGALLERY
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('img/w4.jpeg'); /* Replace with your image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #444;
+      padding: 10px;
+    }
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .art-piece {
+      position: relative;
+      width: 200px; /* Set your default width */
+      height: 300px; /* Set your default height */
+      margin: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    }
+
+    .art-piece img {
+      width: 100%; /* Make sure the image takes up 100% of the container */
+      height: auto; /* Maintain the aspect ratio of the image */
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+      color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .art-piece:hover {
+      transform: scale(1.2); /* Increase scale on hover (you can adjust the value) */
+    }
+
+    .art-piece:hover .overlay {
+      opacity: 1; /* Show overlay on hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Art Gallery</h1>
+  </header>
+  
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#support">Support</a>
+    <a href="#loginsignup">Log-in/Sign-up</a>
+  </nav>
+
+  <section>
+    <div class="art-piece">
+      <a href="art1.html">
+        <img src="img/01nADpg4RnygIYXOGUqLXA.jpg" alt="Art 1">
+        <div class="overlay">
+          <p>Artist: DRACO</p>
+        </div>
+      </a>
+    </div>
+    <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/3M1GYNlFSBWc2wzdINJ9pA.jpg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: JNR</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/8eKta9JqTueAUfRmRtRatQ.jpg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: IKEMBA</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/bcBOe1xYRriLRStGaq6tDQ.jpg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: EMMANUEL</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/e5_OMoRSQQu_S50oZb6zOg.jpg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: IKECHUKWU</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/FLsPG1x7SqWvXBGGV-oR-Q.jpg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: PRIME</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (1).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: PRIMAL</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (10).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: STRANGER</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (11).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: PHANTOM</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (12).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: DRAC</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (13).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: X</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (14).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: BOBO</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (15).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: JUNIOR</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (16).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: ME</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (17).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: EMMA</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (18).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: IK</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (19).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: IMPULSE</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (2).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: XS</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (9).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: AGENT E</p>
+          </div>
+        </a>
+      </div>
+      <div class="art-piece">
+        <a href="art1.html">
+          <img src="img/ideogram (8).jpeg" alt="Art 1">
+          <div class="overlay">
+            <p>Artist: SHADOW</p>
+          </div>
+        </a>
+      </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Art Gallery</p>
+  </footer>
+</body>
+</html>
